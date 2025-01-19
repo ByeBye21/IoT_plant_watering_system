@@ -13,9 +13,9 @@ UMUT DIREK - B221210090
 //LCD ekranını başlat
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
-char auth[] = "nI-Lmdvd6qb5WM2XcLoFI4q9nZUI1Dr-"; //auth tokeni
-char ssid[] = "FiberHGW_ZTK62X_2.4GHz";     //wifi adı
-char pass[] = "dEdxYf3uN4K9";  //wifi şifresi
+char auth[] = ""; //auth tokeni
+char ssid[] = ""; //wifi adı
+char pass[] = ""; //wifi şifresi
 
 BlynkTimer zamanlayici;
 bool role = 0;
